@@ -15,9 +15,9 @@ This is waht Tensoeflow relies on when being compiled.
 If you are using an Nvidia GPU, you need to install CUDA and CUDNN, to accelerate Deep learning 
 
 
-![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png =250x250)
 
-![image](https://github.com/ramgopalputta/Sign_Language_Detection_Using_Tensorflow/assets/114395443/0676a91b-9fc2-4af8-8f99-c8bd11c677ec = 250x250)
+
+<img src="![image](https://github.com/ramgopalputta/Sign_Language_Detection_Using_Tensorflow/assets/114395443/bb278011-9635-4e6f-8165-470bc5db4e92)" width="200" height="400" />
 
 
 ## 4. Protoc
