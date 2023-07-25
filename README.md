@@ -1,5 +1,5 @@
 # 1. ABSTRACT
-This project focuses on implementing Object Detection (Sign Language Detection) model, using TensorFlow. By utilizing our webcam, we collect images of different signs and label them using 'LabelImg.' Next, we employ the Transfer Learning approach with the TensorFlow Object Detection API, using SSD MobileNet for training. The result is real-time sign language detection through Python and openCV, enabling the identification of sign language poses via the webcam. 
+This project focuses on implementing Object Detection (Sign Language Detection) model, using TensorFlow. By utilizing our webcam, we collect images of different signs and label them using a graphical image annotation tool 'LabelImg'. Next, we employ the Transfer Learning approach with the TensorFlow Object Detection API, using SSD MobileNet for training the model. The result is real-time sign language detection through Python and openCV, enabling the identification of sign language poses via the webcam. 
 
 # 2. INSTALLATION AND SETUP:
 
@@ -69,7 +69,7 @@ https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc
 
 # 5. MODEL EVALUATION
 Once the model is trained, the model is evaluated by determinig: \
-Mean Average Precision - TP/(TP+FP) - what proportion of detections were correct? (Ideally, As high as possible)\
+Mean Average Precision - TP/(TP+FP) - what proportion of detections were correct? \
 Mean Average Recall    - TP/(TP+FN) - what proportion of actual objects were captured?\
 Loss - Evaluating how well the model is performing against the given data.\
 Ideally, Precision and Recall must be as high as possible; and Loss should be low.
