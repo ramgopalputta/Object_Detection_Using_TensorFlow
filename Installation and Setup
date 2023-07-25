@@ -1,16 +1,21 @@
-##1. Python using Anaconda:
+## 1. PYTHON USING ANACONDA
+-----------------------------
 Install a python version using Anaconda, to run TensorFlow within the Jupyter notebook.
 
 Installation link:
 https://repo.anaconda.com/archive
 
-## 2. Microsoft Visual Visual C++ 
+
+## 2. MICROSOFT VISUAL VISUAL C++
+----------------------------------
 TensorFlow necessitates C++ Build tools, and CUDA requires Visual Studio.
 
 Installation link:
 https://visualstudio.microsoft.com/vs/community/
 
+
 ## 3. CUDA and CUDNN for NVIDIA
+-------------------------------
 If you are using an Nvidia GPU, you need to install CUDA and CUDNN to accelerate the Deep learning process and training.
 
 Check the versions of Tensorflow_gpu from the below link and install the corresponding CDA and CUDNN:
@@ -22,19 +27,25 @@ https://developer.nvidia.com/cuda-11.2.0-download-archive
 CUDNN installtion link:
 https://developer.nvidia.com/rdp/cudnn-archive
 
-## 4. Protocol Buffers
+
+## 4. PROTOCOL BUFFERS
+----------------------
 These are the formats that the TensorFlow saves the model in. TensorFlow graphs are represented in a format called protocol buffer.
 
 Install Protoc for Protocol Buffers from the below official Github Repo link:
 https://github.com/protocolbuffers/protobuf/releases
 
-## 5. Git Bash
+
+## 5. GIT BASH
+--------------
 This allows us to use Git commands.
 
 Installation link:
 https://git-scm.com/downloads
 
-## 5. TensorFlow Object Dtection API
+
+## 5. TENSORFLOW OBJECT DTECTION API
+------------------------------------
 The TensorFlow Object Detection API is a open-source framework, developed on TensorFlow. It helps to build, train, and deploy the object detection models. The framework includes pre-trained models, referred to as the Model Zoo.
 
 Clone the below github repo:
