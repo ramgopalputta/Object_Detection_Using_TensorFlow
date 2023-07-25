@@ -10,7 +10,10 @@ Link - https://github.com/ramgopalputta/Sign_Language_Detection_Using_TensorFlow
 ## 2. Collecting the images and labelling them using 'LabelImg':
 We will be using our own webcam to collect the images of various signs and then pass them to 'LabelImg', which is is a graphical image annotation tool.
 Make sure to keep your object detection bounding box as tight as possible, include pictures from various angles and lighting conditions, and begin with 10-20 images per class.
-![Victory_cropped](https://github.com/ramgopalputta/Object_Detection_Using_TensorFlow/assets/114395443/45c73931-76e2-4f59-879a-5c8b52013cfb)
+
+<img src="![Victory_cropped](https://github.com/ramgopalputta/Object_Detection_Using_TensorFlow/assets/114395443/45c73931-76e2-4f59-879a-5c8b52013cfb)" width="200" height="400" />
+
+
 ![Thumbsdown_cropped](https://github.com/ramgopalputta/Object_Detection_Using_TensorFlow/assets/114395443/6f8bc2db-ab96-4e3a-91cc-6106bba39119)
 
 
