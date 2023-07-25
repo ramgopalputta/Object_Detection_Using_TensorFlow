@@ -8,20 +8,35 @@ Install the required software, tools, packages, and clone the necessary GitHub r
 Link - https://github.com/ramgopalputta/Sign_Language_Detection_Using_TensorFlow/blob/main/Installation%20and%20Setup
 
 ## 2. Collecting the images and labelling them using 'LabelImg':
-We will be using our own webcam to collect the images of various signs and then pass them to 'LabelImg', which is is a graphical image annotation tool.
-Make sure to keep your object detection bounding box as tight as possible, include pictures from various angles and lighting conditions, and begin with 10-20 images per class.
+Using a webcam, images of various signs are collected and passed to 'LabelImg', a graphical image annotation tool (https://github.com/HumanSignal/labelImg). \
+Ensure tight object detection bounding boxes, include pictures from different angles and lighting conditions, and start with 10-20 images per class.
 
-<img src="![Thumbsdown_cropped](https://github.com/ramgopalputta/Object_Detection_Using_TensorFlow/assets/114395443/6f8bc2db-ab96-4e3a-91cc-6106bba39119)" width="200" height="400" />
+<img src="https://github.com/ramgopalputta/Object_Detection_Using_TensorFlow/assets/114395443/47c85a39-40e1-403c-8abc-2cae9e4bd40b" width="200" height="250" />
 
+<img src="https://github.com/ramgopalputta/Object_Detection_Using_TensorFlow/assets/114395443/262cedb1-ffb1-49f8-9b89-2cbc37b2ea4a" width="200" height="250" />
 
-![Thumbsdown_cropped](https://github.com/ramgopalputta/Object_Detection_Using_TensorFlow/assets/114395443/6f8bc2db-ab96-4e3a-91cc-6106bba39119)
+<img src="https://github.com/ramgopalputta/Object_Detection_Using_TensorFlow/assets/114395443/99de80f6-515c-4241-a1f3-f042ccae2203" width="200" height="250" />
 
-
+<img src="https://github.com/ramgopalputta/Object_Detection_Using_TensorFlow/assets/114395443/70022a6e-2498-4198-8794-da3f1444a0c1" width="200" height="250" />
 
 ## 2.  Training TensorFlow Object Detction Models:
-Now, we are going to use Transfer leraning approach against the TensorFloe object detection API using SSD MobileNet
+Now, a Transfer learning approach will be utilized against the TensorFlow object detection API using SSD MobileNet.\
+Pretrained model used: ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8
+https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md.
+
+
+
+### Evaluation
+Once the model is trained, the model is evaluated by determinig: \
+Mean Average Precision - TP/(TP+FP) - what proportion of detections were correct? (Ideally, As high as possible)\
+Mean Average Recall    - TP/(TP+FN) - what proportion of actual objects were captured?\
+Loss - Evaluating how well the model is performing against the given data.\
+Ideally, Precision and Recall must be as high as possible; and Loss should be low.
+
 
 ### Freezing and Conversion
+
+##
 
 ### Performance Tuning
 
