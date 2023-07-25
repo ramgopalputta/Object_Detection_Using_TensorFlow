@@ -19,12 +19,10 @@ Ensure tight object detection bounding boxes, include pictures from different an
 
 <img src="https://github.com/ramgopalputta/Object_Detection_Using_TensorFlow/assets/114395443/70022a6e-2498-4198-8794-da3f1444a0c1" width="200" height="250" />
 
-## 2.  Training TensorFlow Object Detction Models:
+## 2.  Training TensorFlow Object Detction Model:
 Now, a Transfer learning approach will be utilized against the TensorFlow object detection API using SSD MobileNet.\
 Pretrained model used: ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8
 https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md.
-
-
 
 ### Evaluation
 Once the model is trained, the model is evaluated by determinig: \
@@ -34,15 +32,15 @@ Loss - Evaluating how well the model is performing against the given data.\
 Ideally, Precision and Recall must be as high as possible; and Loss should be low.
 
 
-### Freezing and Conversion
-
-##
-
-### Performance Tuning
-
 ## 3. Detecting sign language in real time using Webcam:
 Finally, using python and openCv, real time sign language poses are detected via your webcam. 
 
 
+## 4. Performance Tuning
+Performance Tuning is a set of optimizations and best practices which can accelerate training and boosts the performace of deep learning models.
+This can be achieved by:
+* Adding more images to the traning set particularly for low-performing classes, and varying backgrounds and lighting conditions, etc..
+* Trainig longer by increasing the number of epochs.
+* Changing the model architecture.
 
 
