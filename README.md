@@ -4,7 +4,7 @@ This project focuses on implementing Object Detection (Sign Language Detection) 
 # STEPS TO BUILD THE MODEL
 
 ## 1. Installation and Setup:
-
+Create a
 
 ## 1. Collecting the images and labelling them using 'LABELIMG':
 We will be using our own webcam to collect the images of various signs and then passes to 'LabelImg', which is is a graphical image annotation tool  
@@ -12,7 +12,11 @@ We will be using our own webcam to collect the images of various signs and then 
 ## 2.  Trai
 Now, we are going to use Transfer leraning approach against the TensorFloe object detection API using SSD MobileNet
 
-# 3. DETECTING SIGN LANGUAGE IN REAL TIME
+### Freezing and Conversion
+
+### Performance Tuning
+
+## 3. Detecting sign language in real time
 Finally, using python and openCv, real time sign language poses are detected via your webcam. 
 
 
