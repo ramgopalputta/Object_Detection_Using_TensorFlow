@@ -1,5 +1,5 @@
-#1. Python using Anaconda:
-Install a python version using Anaconda, to run TensorFlow within the Jupyter notebook..
+##1. Python using Anaconda:
+Install a python version using Anaconda, to run TensorFlow within the Jupyter notebook.
 
 Installation link:
 https://repo.anaconda.com/archive
