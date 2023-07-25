@@ -35,6 +35,15 @@ Ideally, Precision and Recall must be as high as possible; and Loss should be lo
 ## 3. Detecting sign language in real time using Webcam:
 Finally, using python and openCv, real time sign language poses are detected via your webcam. 
 
+<img src="https://github.com/ramgopalputta/Object_Detection_Using_TensorFlow/assets/114395443/38e40d73-a4a1-4398-a8a3-6c024cf3289c" width="225" height="250" />
+
+<img src="https://github.com/ramgopalputta/Object_Detection_Using_TensorFlow/assets/114395443/9eed0334-e091-4f87-aee1-d409a59ac869" width="225" height="250" />
+
+<img src="https://github.com/ramgopalputta/Object_Detection_Using_TensorFlow/assets/114395443/6fd8e5cd-b206-4879-998b-bbdce3fdab99" width="225" height="250" />
+
+<img src="https://github.com/ramgopalputta/Object_Detection_Using_TensorFlow/assets/114395443/f579d1f8-9f36-4ae2-bbeb-9dd460d1c7e3" width="275" height="250" />
+
+
 
 ## 4. Performance Tuning
 Performance Tuning is a set of optimizations and best practices which can accelerate training and boosts the performace of deep learning models.
