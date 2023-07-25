@@ -1,11 +1,5 @@
-
-
-
-
-## -----------------------------------------Rephrase using Chatgpt------------------------------------------------
-
 # ABSTRACT
-
+This project focuses on implementing sign language detection model using TensorFlow. By utilizing our webcam, we collect images of different signs and label them using 'LabelImg.' Next, we employ the Transfer Learning approach with the TensorFlow Object Detection API, using SSD MobileNet for training. The result is real-time sign language detection through Python and openCV, enabling the identification of sign language poses via the webcam. 
 
 
 # LABELLING IMAGES FOR OBJECT DETECTION USING 'LABELIMG
