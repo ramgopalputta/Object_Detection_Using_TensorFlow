@@ -3,25 +3,22 @@ This project focuses on implementing Object Detection (Sign Language Detection) 
 
 # 2. INSTALLATION AND SETUP:
 
-Install the required software, tools, packages, and clone the necessary GitHub repositories by referring to the 'Installation and Setup' section above for detailed guidance.
-Link - https://github.com/ramgopalputta/Sign_Language_Detection_Using_TensorFlow/blob/main/Installation%20and%20Setup
-
-### _1. Python using Anaconda_
+### _i) Python using Anaconda_
 Install a python version using Anaconda, to run TensorFlow within the Jupyter notebook.
 
 Installation link:
 https://repo.anaconda.com/archive
 
 
-### _2. Microsoft Visual Visual C++_
+### _ii) Microsoft Visual Visual C++_
 TensorFlow necessitates C++ Build tools, and CUDA requires Visual Studio.
 
 Installation link:
 https://visualstudio.microsoft.com/vs/community/
 
 
-### _3. CUDA and CUDNN for NVIDIA_
-If you are using an Nvidia GPU, you need to install CUDA and CUDNN to accelerate the Deep learning process and training.
+### _iii) CUDA and CUDNN for NVIDIA_
+Nvidia GPU users must install CUDA and CUDNN for enhanced Deep learning process and training acceleration.
 
 Check the versions of Tensorflow_gpu from the below link and install the corresponding CDA and CUDNN:
 https://www.tensorflow.org/install/source_windows
@@ -33,21 +30,21 @@ CUDNN installtion link:
 https://developer.nvidia.com/rdp/cudnn-archive
 
 
-### _4. Protocol Buffers_
+### _iv) Protocol Buffers_
 These are the formats that the TensorFlow saves the model in. TensorFlow graphs are represented in a format called protocol buffer.
 
 Install Protoc for Protocol Buffers from the below official Github Repo link:
 https://github.com/protocolbuffers/protobuf/releases
 
 
-### _5. GIT Bash_
+### _v) GIT Bash_
 This allows us to use Git commands.
 
 Installation link:
 https://git-scm.com/downloads
 
 
-### _6. Tensorflow Object Dtection API_
+### _vi) Tensorflow Object Dtection API_
 The TensorFlow Object Detection API is a open-source framework, developed on TensorFlow. It helps to build, train, and deploy the object detection models. The framework includes pre-trained models, referred to as the Model Zoo.
 
 Clone the below github repo:
