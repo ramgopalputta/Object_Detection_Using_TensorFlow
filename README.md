@@ -4,7 +4,8 @@ This project focuses on implementing Object Detection (Sign Language Detection) 
 # STEPS TO BUILD THE MODEL
 
 ## 1. Installation and Setup:
-Create a
+Install the required software, tools, and packages, and clone the necessary GitHub repositories by referring to the 'Installation and Setup' section above for detailed guidance.
+Link - https://github.com/ramgopalputta/Sign_Language_Detection_Using_TensorFlow/blob/main/Installation%20and%20Setup
 
 ## 1. Collecting the images and labelling them using 'LABELIMG':
 We will be using our own webcam to collect the images of various signs and then passes to 'LabelImg', which is is a graphical image annotation tool  
